@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node devServer.js",
     "build": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build-windows": "set NODE_ENV=production && webpack --config webpack.config.prod.js",
     "graphiql": "reindex graphiql",
     "schema-fetch": "reindex schema-fetch",
     "schema-push": "reindex schema-push",
